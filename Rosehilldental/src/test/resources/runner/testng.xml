@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="LinksVerification">
+    <classes>
+      <class name="com.automation.dental.testcases.TopLinksV"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="ContactUs">
+    <classes>
+      <class name="com.automation.dental.testcases.ContactUs"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="MeetOurTeamm">
+    <classes>
+      <class name="com.automation.dental.testcases.MeetOurTeamm"/>
+    </classes>
+  </test> <!-- Test -->
+   
+
+
+ <test name="newPatients">
+    <classes>
+      <class name="com.automation.dental.testcases.NewPatients"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+   <test name="homeScreen">
+    <classes>
+      <class name="com.automation.dental.testcases.Home"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="btmlnks">
+    <classes>
+      <class name="com.automation.dental.testcases.BottomLinks"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="bookapp">
+    <classes>
+      <class name="com.automation.dental.testcases.Booking"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    
+   <test name="Dental Exams">
+    <classes>
+      <class name="com.automation.dental.testcases.Services"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  </suite> <!-- Suite -->
